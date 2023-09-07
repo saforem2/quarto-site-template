@@ -1,0 +1,192 @@
+title: "Sam Foreman"
+date: last-modified
+# date: today
+author-title: ""
+affiliation-title: ""
+published-title: ""
+modified-title: ""
+title-block-categories: false
+number-sections: false
+bibliography: references.bib
+# appendix-cite-as: display
+favicon: "favicon.svg"
+twitter-card: true
+site-url: https://saforem2.github.io/quarto-site-template
+google-scholar: true
+citeproc: true
+project:
+  render:
+    - index.qmd
+    - qmd/*.qmd
+  type: website
+  output-dir: "docs"
+  preview:
+    port: 4209
+author:
+  name: Sam Foreman
+  url: https://samforeman.me
+  orcid: 0000-0002-9981-0876
+  email: foremans@anl.gov
+  # affiliation: Argonne National Laboratory
+  # affiliation-url: https://alcf.anl.gov/about/people/sam-foreman
+citation:
+   author: Sam Foreman
+   type: webpage
+   title: "Quarto Site Template"
+   url: https://saforem2.github.io/quarto-site-template
+execute:
+  keep-ipynb: true
+  keep-md: true
+  freeze: auto
+website:
+  twitter-card:
+    site: "@saforem2"
+    creator: "@saforem2"
+  page-navigation: true
+  back-to-top-navigation: true
+  title: "Quarto Template"
+  site-url: "https://saforem2.github.io/quarto-site-template"
+  favicon: "https://raw.githubusercontent.com/saforem2/saforem2.github.io/master/docs/favicon.svg"
+  # reader-mode: true
+  navbar:
+    logo: "https://raw.githubusercontent.com/saforem2/saforem2.github.io/master/docs/favicon.svg"
+    background: "#222222"
+    foregound: "#777777"
+    right:
+      - icon: github
+        href: https://github.com/saforem2/saforem2.github.io/quarto-site-template
+        aria-label: GitHub
+    left:
+      # - icon: newspaper
+      - href: "./qmd/personal.qmd"
+        text: "[{{< fa solid address-card >}}]{.dim-text} Personal"
+      - href: "./qmd/posts.qmd"
+        text: "[{{< fa regular newspaper >}}]{.red-text} Posts"
+      # # - icon: person-chalkboard
+      # - href: "./qmd/slides.qmd"
+      #   text: "[{{< fa solid person-chalkboard >}}]{style='color:#87C4F9'} Slides"
+      # # - icon: github
+      # - href: "https://saforem2.github.io/l2hmc-qcd"
+      #   text: "[{{< fa brands github >}}]{.green-text} l2hmc-qcd"
+    # left: auto
+      # - href: index.qmd
+      #   text: Analysis
+      # - href: ./qmd/Climrr.qmd
+      #   text: ClimRR
+      # - href: ./qmd/iris.qmd
+      #   text: Iris
+  open-graph: true
+  repo-url: https://github.com/saforem2/quarto-site-template
+  repo-actions: [source, edit, issue]
+  google-analytics: G-XVM2Y822Y1
+  sidebar: false
+  page-footer:
+    center: "Copyright 2023, Sam Foreman" 
+    left:
+      - href: https://saforem2.github.io/quarto-site-template
+        text: Quarto Site Template
+    right:
+      - href: https://samforeman.me
+        text: "{{< fa solid home >}}"
+      - icon: github
+        href: https://github.com/saforem2
+      - icon: twitter
+        href: https://twitter.com/saforem2
+      - href: "mailto:///foremans@anl.gov"
+        text: "{{< fa regular paper-plane >}}"
+      - href: https://www.twitter.com/saforem2
+        text: "{{< fa brands twitter >}}"
+      - href: https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en
+        text: "{{< ai google-scholar >}}"
+      - href: https://orcid.org/0000-0002-9981-0876
+        text: "{{< ai orcid >}}"
+      - href: https://www.last.fm/user/saforem2
+        text: "{{< fa brands lastfm >}}"
+      - href: https://open.spotify.com/user/saforem2
+        text: "{{< fa brands spotify >}}"
+      - href: https://www.instagram.com/saforem2
+        text: "{{< fa brands instagram >}}"
+      - href: https://linkedin.com/in/saforem2
+        text: "{{< fa brands linkedin >}}"
+format:
+  html:
+    code-line-numbers: true
+    toc: true
+    self-contained: false
+    toc-location: right
+    grid:
+      body-width: 1150px
+    fig-responsive: true
+    anchor-sections: true
+    highlight-style: atom-one
+    code-overflow: scroll
+    code-fold: false
+    code-copy: hover
+    code-summary: " "
+    html-math-method: katex
+    css:
+      - css/default.css
+      - css/callouts.css
+    theme: 
+      dark:
+        - css/common.scss
+        - css/dark.scss 
+        - css/syntax-dark.scss
+      light:
+        - css/common.scss
+        - css/light.scss
+        - css/syntax-light.scss
+    smooth-scroll: true
+    citations-hover: true
+    footnotes-hover: true
+    header-includes: |
+      <link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet" />
+    # <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+    # <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    # <!-- and it's easy to individually load additional languages -->
+    # <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/go.min.js"></script>
+    # <script>hljs.highlightAll();</script>
+
+    # code-tools:
+      # source: repo
+      # toggle: true
+      # caption: none
+  # sidebar:
+  #   style: "floating"
+  #   search: true
+  #   collapse-level: 2
+  #   contents:
+  #     - href: index.qmd
+  #       text: Home
+  #     - href: qmd/slides.qmd
+  #       text: Recent Talks
+# filters:
+#   - lua/callouts.lua
+# highlight-style:
+#   dark: dracula
+#   light: dracula-light
+    # grid:
+    #   sidebar-width: 200px
+    #   body-width: 950px
+    #   margin-width: 150px
+    #   gutter-width: 1em
+    # embed-resources: true
+    # page-layout: article
+    # line-numbers: true
+    # code-link: true
+    # embed-resources: false
+    # self-contained-math: false
+      # dark: atom-one
+      # light: a11y
+    # highlight-style:
+    #     dark: "atom-one"
+    #     light: "github"
+    # highlight-style: atom-one
+    # code-tools:
+    #   source: repo
+    #   toggle: true
+    #   caption: none
+    # code-tools:
+    #   source: repo
+    #   toggle: true
+    #   caption: none
