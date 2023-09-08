@@ -57,16 +57,16 @@ website:
     background: "#222222"
     foregound: "#777777"
     right:
-      - icon: github
-        href: https://github.com/saforem2/saforem2.github.io/quarto-site-template
-        aria-label: GitHub
-    left:
-      # - icon: newspaper
+    # left:
       - href: "./qmd/personal.qmd"
-        # text: "[{{< fa solid address-card >}}]{.dim-text} Personal"
-        text: "[{{< bi person-vcard >}}]{.dim-text} Personal"
+        text: "[{{< bi person-vcard >}}]{.purple-text} Personal"
+        aria-label: Personal
       - href: "./qmd/posts.qmd"
-        text: "[{{< bi newspaper >}}]{.dim-text} Posts"
+        text: "[{{< bi newspaper >}}]{.pink-text} Posts"
+        aria-label: Posts
+      - href: https://github.com/saforem2/saforem2.github.io/quarto-site-template
+        icon: github
+        aria-label: GitHub
   open-graph: true
   repo-url: https://github.com/saforem2/quarto-site-template
   repo-actions: [source, edit, issue]
@@ -107,6 +107,7 @@ format:
     self-contained: false
     toc-location: right
     grid:
+      # gutter-width: 1.5rem
       body-width: 1150px
     fig-responsive: true
     anchor-sections: true
