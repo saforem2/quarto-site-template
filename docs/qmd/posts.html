@@ -202,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Listing Example</h1>
+<div class="quarto-title-block"><div><h1 class="title">Listing Example</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/saforem2/quarto-site-template/blob/main/qmd/posts.qmd"><i class="bi"></i></button></div></div>
 </div>
 
 
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-             <p><a href="https://samforeman.me">Sam Foreman <span class="orcid-green"></span></a><a href="https://orcid.org/0000-0002-9981-0876"><i class="ai  ai-orcid"></i></a> </p>
+             <p><a href="https://samforeman.me">Sam Foreman </a><a href="https://orcid.org/0000-0002-9981-0876"><span class="orcid-green"><i class="ai  ai-orcid"></i></span></a> </p>
           </div>
   </div>
     
@@ -461,6 +461,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -619,14 +670,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="https://saforem2.github.io/quarto-site-template">Quarto Site Template</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2023, Sam Foreman<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/saforem2/quarto-site-template/blob/main/qmd/posts.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/saforem2/quarto-site-template/edit/main/qmd/posts.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/saforem2/quarto-site-template/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
-    <div class="nav-footer-right">
+    <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://samforeman.me"><i class="fa-solid fa-home" aria-label="home"></i></a>
@@ -668,7 +714,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="https://linkedin.com/in/saforem2"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/saforem2/quarto-site-template/blob/main/qmd/posts.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/saforem2/quarto-site-template/edit/main/qmd/posts.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/saforem2/quarto-site-template/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right">Copyright 2023, Sam Foreman</div>
   </div>
 </footer>
 
