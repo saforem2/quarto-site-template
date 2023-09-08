@@ -1,67 +1,20 @@
 ---
-callout-appearance: simple
-format:
-   html:
-      toc: true
-      grid:
-      #    sidebar-width: 0%
-         body-width: 1150px
-      # body-width: 950px
-      # margin-width: 150px
-      # gutter-width: 1em
-title-block-banner: false
-title: "[{{< fa solid home >}}]{.red-text} Homepage"
-sidebar: false
+title: "[{{< bi house-door >}}]{.red-text} Homepage"
 editor:
    render-on-save: true
 execute:
    freeze: true
-# about:
-#    id: hero-heading
-#    template: trestles
-#    image-width: 10em
-#    image-shape: round
-#    image: https://github.com/saforem2/saforem2.github.io/blob/master/docs/assets/avatar.png?raw=true
-#    links:
-#      - href: https://samforeman.me
-#        text: "{{< fa solid home >}}"
-#      - icon: github
-#        href: https://github.com/saforem2
-#      - icon: twitter
-#        href: https://twitter.com/saforem2
-#      - href: "mailto:///foremans@anl.gov"
-#        text: "{{< fa regular paper-plane >}}"
-#    #   - href: https://www.twitter.com/saforem2
-#    #     text: "{{< fa brands twitter >}}"
-#    #   - href: https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en
-#    #     text: "{{< ai google-scholar >}}"
-#    #   - href: https://orcid.org/0000-0002-9981-0876
-#    #     text: "{{< ai orcid >}}"
-#    #   - href: https://www.last.fm/user/saforem2
-#    #     text: "{{< fa brands lastfm >}}"
-#    #   - href: https://open.spotify.com/user/saforem2
-#    #     text: "{{< fa brands spotify >}}"
-#    #   - href: https://www.instagram.com/saforem2
-#    #     text: "{{< fa brands instagram >}}"
-#    #   - href: https://linkedin.com/in/saforem2
-#    #     text: "{{< fa brands linkedin >}}"
 ---
 
-<!-- # [{{< fa solid server >}}]{.green-text} Awesome Landing Page -->
-
-<!-- ## [{{< fa solid wand-sparkles >}}]{.green-text} Examples -->
-<!-- ## [{{< fa solid person-dots-from-line >}}]{.green-text} Examples -->
-<!-- ## [{{< fa solid square-root-variable >}}]{.green-text} Examples -->
-
-
-## [{{< fa solid chalkboard-user >}}]{.orange-text} Examples
+## [{{< bi easel2 >}}]{.green-text} Examples
 
 - Personal Website / Blog: [{{< fa brands github >}}](https://github.com/saforem2/saforem2.github.io) [saforem2.github.io](https://saforem2.github.io)
 - Code / Project Website(s):
   - [{{< fa brands github >}}](https://github.com/saforem2/l2hmc-qcd) [`l2hmc-qcd`](https://saforem2.github.io/l2hmc-qcd)
   - [{{< fa brands github >}}](https://github.com/saforem2/climate-analysis) [Climate Analysis with `ClimRR`](https://saforem2.github.io/climate-analysis)
 
-## [{{< fa solid hourglass-end >}}]{.yellow-text} Appendix
+<!-- ## [{{< fa solid hourglass-end >}}]{.yellow-text} Appendix -->
+## [{{< bi signpost >}}]{.blue-text} Appendix
 
 ```{python}
 from datetime import date

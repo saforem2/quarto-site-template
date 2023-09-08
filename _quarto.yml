@@ -23,9 +23,13 @@ project:
   preview:
     port: 4209
 author:
-  name: Sam Foreman
+  # name: "Sam Foreman [![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/1024px-ORCID_iD.svg.png?20190308043226)]{.inline-icon}"
+        # text: "[{{< bi person-vcard >}}]{.dim-text} Personal"
+  name: "Sam Foreman [[{{< ai orcid >}}](https://orcid.org/0000-0002-9981-0876)]{.orcid-green}"
+  # name: "Sam Foreman <a href='https://orcid.org/0000-0002-9981-0876'><img alt='ORCID logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ORCID_iD.svg/1024px-ORCID_iD.svg.png?20190308043226' width='16' height='16' style='vertical-align: baseline;' /></a>"
+  # name: Sam Foreman
   url: https://samforeman.me
-  orcid: 0000-0002-9981-0876
+  # orcid: 0000-0002-9981-0876
   email: foremans@anl.gov
   # affiliation: Argonne National Laboratory
   # affiliation-url: https://alcf.anl.gov/about/people/sam-foreman
@@ -44,7 +48,7 @@ website:
     creator: "@saforem2"
   page-navigation: true
   back-to-top-navigation: true
-  title: "Quarto Template"
+  title: "Site Template"
   site-url: "https://saforem2.github.io/quarto-site-template"
   favicon: "https://raw.githubusercontent.com/saforem2/saforem2.github.io/master/docs/favicon.svg"
   # reader-mode: true
@@ -59,26 +63,13 @@ website:
     left:
       # - icon: newspaper
       - href: "./qmd/personal.qmd"
-        text: "[{{< fa solid address-card >}}]{.dim-text} Personal"
+        # text: "[{{< fa solid address-card >}}]{.dim-text} Personal"
+        text: "[{{< bi person-vcard >}}]{.dim-text} Personal"
       - href: "./qmd/posts.qmd"
-        text: "[{{< fa regular newspaper >}}]{.red-text} Posts"
-      # # - icon: person-chalkboard
-      # - href: "./qmd/slides.qmd"
-      #   text: "[{{< fa solid person-chalkboard >}}]{style='color:#87C4F9'} Slides"
-      # # - icon: github
-      # - href: "https://saforem2.github.io/l2hmc-qcd"
-      #   text: "[{{< fa brands github >}}]{.green-text} l2hmc-qcd"
-    # left: auto
-      # - href: index.qmd
-      #   text: Analysis
-      # - href: ./qmd/Climrr.qmd
-      #   text: ClimRR
-      # - href: ./qmd/iris.qmd
-      #   text: Iris
+        text: "[{{< bi newspaper >}}]{.dim-text} Posts"
   open-graph: true
   repo-url: https://github.com/saforem2/quarto-site-template
   repo-actions: [source, edit, issue]
-  google-analytics: G-XVM2Y822Y1
   sidebar: false
   page-footer:
     center: "Copyright 2023, Sam Foreman" 
@@ -110,6 +101,7 @@ website:
         text: "{{< fa brands linkedin >}}"
 format:
   html:
+    callout-appearance: simple
     code-line-numbers: true
     toc: true
     self-contained: false
