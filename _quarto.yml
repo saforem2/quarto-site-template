@@ -72,11 +72,11 @@ website:
   repo-actions: [source, edit, issue]
   sidebar: false
   page-footer:
-    center: "Copyright 2023, Sam Foreman" 
-    left:
-      - href: https://saforem2.github.io/quarto-site-template
-        text: Quarto Site Template
-    right:
+    right: "Copyright 2023, Sam Foreman" 
+    # right:
+    #   - href: https://saforem2.github.io/quarto-site-template
+    #     text: Quarto Site Template
+    center:
       - href: https://samforeman.me
         text: "{{< fa solid home >}}"
       - icon: github
