@@ -4,7 +4,7 @@
     "href": "qmd/posts.html",
     "title": "Listing Example",
     "section": "",
-    "text": "You can review the following documents for additional information:\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nLearn more about Quarto here.\n\n\n\n\n Back to topCitationBibTeX citation:@online{foreman2023,\n  author = {Foreman, Sam},\n  title = {Quarto {Site} {Template}},\n  date = {2023-09-07},\n  url = {https://saforem2.github.io/quarto-site-template},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nForeman, Sam. 2023. “Quarto Site Template.” September 7,\n2023. https://saforem2.github.io/quarto-site-template."
+    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSam Foreman\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\nLearn more about Quarto here.\n\n\n\n\n Back to topCitationBibTeX citation:@online{foreman2023,\n  author = {Foreman, Sam},\n  title = {Quarto {Site} {Template}},\n  date = {2023-09-08},\n  url = {https://saforem2.github.io/quarto-site-template},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nForeman, Sam. 2023. “Quarto Site Template.” September 8,\n2023. https://saforem2.github.io/quarto-site-template."
   },
   {
     "objectID": "index.html",
