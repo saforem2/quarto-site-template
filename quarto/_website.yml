@@ -5,20 +5,20 @@ website:
   favicon: "./favicon.svg"
   back-to-top-navigation: true
   google-analytics: G-XVM2Y822Y1
-  site-url: "https://saforem2.github.io/ezpz"
+  site-url: "https://saforem2.github.io/quarto-site-template"
   repo-actions: [source, edit, issue]
-  repo-url: https://github.com/saforem2/ezpz
-  description: "Distributed training, ezpz."
+  repo-url: https://github.com/saforem2/quarto-site-template
+  description: "Distributed training, quarto-site-template."
   open-graph:
     title: "quarto-site-template 🏗️"
-    description: "Distributed training, ezpz."
-    image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
+    description: "Distributed training, quarto-site-template."
+    image: "https://github.com/saforem2/quarto-site-template/blob/main/assets/thumbnail.png?raw=true"
   twitter-card:
     site: "@saforem2"
     creator: "@saforem2"
     title: "quarto-site-template 🏗️"
     description: "My ramblings about science and computers"
-    image: "https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true"
+    image: "https://github.com/saforem2/quarto-site-template/blob/main/assets/thumbnail.png?raw=true"
   navbar:
     # title: false
     logo: "./favicon.svg"
@@ -30,9 +30,9 @@ website:
       - icon: gear
         menu:
           - text: Source Code
-            url: https://github.com/saforem2/ezpz/blob/main/index.qmd
+            url: https://github.com/saforem2/quarto-site-template/blob/main/index.qmd
           - text: New Issue
-            url: https://github.com/saforem2/ezpz/issues/new/choose
+            url: https://github.com/saforem2/quarto-site-template/issues/new/choose
     # left:
     #   - href: "./qmd/posts.qmd"
     #     text: "[{{< iconify line-md pencil >}}]{.red-text style='font-size: 1.0em;'} Posts"
@@ -40,24 +40,24 @@ website:
     #     text: "[{{< iconify line-md image >}}]{.green-text style='font-size: 1.0em;'} Talks"
     #   - href: "./qmd/projects.qmd"
     #     text: "[{{< iconify line-md computer >}}]{.blue-text style='font-size:1.0em;'} Projects"
-    #   # - href: "./qmd/ezpz/ezpz.qmd"
+    #   # - href: "./qmd/quarto-site-template/quarto-site-template.qmd"
     #   #   text: "[{{< iconify ph sparkle >}}]{.yellow-text style='font-size:1.0em;'} Startup Times"
     right:
       - href: https://twitter.com/saforem2
         text: "[{{< iconify line-md twitter >}}]{style='font-size: 1.15em;'}"
         aria-label: Twitter
-      - href: https://github.com/saforem2/personal_site
+      - href: https://github.com/saforem2/quarto-site-template
         text: "[{{< iconify line-md github-loop >}}]{style='font-size: 1.15em;'}"
         aria-label: GitHub
         menu:
           - text: Source Code
-            url: https://github.com/saforem2/personal_site/blob/main/index.qmd
+            url: https://github.com/saforem2/quarto-site-template/blob/main/index.qmd
           - text: New Issue
-            url: https://github.com/saforem2/personal_site/issues/new/choose
+            url: https://github.com/saforem2/quarto-site-template/issues/new/choose
 
   page-footer:
     left: "Copyright 2024, Sam Foreman" 
-    right: "[samforeman.me](https://samforeman.me)"
+    right: "[quarto-site-template](https://saforem2.github.io/quarto-site-template)"
     center:
       - href: https://samforeman.me
         text: "[{{< fa solid home >}}]{style='font-size: 1.25em;'}"

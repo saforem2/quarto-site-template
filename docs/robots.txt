@@ -1,1 +1,1 @@
-Sitemap: https://saforem2.github.io/ezpz/sitemap.xml
+Sitemap: https://saforem2.github.io/quarto-site-template/sitemap.xml
