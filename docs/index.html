@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Sam Foreman ">
-<meta name="dcterms.date" content="2023-09-07">
+<meta name="dcterms.date" content="2024-02-02">
 
-<title>Site Template - Homepage</title>
+<title>quarto-site-template 🏗️</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,51 +22,17 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./https://raw.githubusercontent.com/saforem2/saforem2.github.io/master/docs/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="././favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,14 +48,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/iconify-1.0.8/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -98,31 +70,46 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XVM2Y822Y1"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 <link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="css/default.css">
 <link rel="stylesheet" href="css/callouts.css">
-<meta property="og:title" content="Site Template -  Homepage">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.saforem2.github.io/quarto-site-template&amp;count_bg=%2300CCFF&amp;title_bg=%23303030&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=false">
-<meta property="og:site-name" content="Site Template">
-<meta name="twitter:title" content="Site Template -  Homepage">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.saforem2.github.io/quarto-site-template&amp;count_bg=%2300CCFF&amp;title_bg=%23303030&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=false">
+<link rel="stylesheet" href="css/ansi.css">
+<meta property="og:title" content="quarto-site-template 🏗️">
+<meta property="og:description" content="Distributed training, ezpz.">
+<meta property="og:image" content="https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true">
+<meta property="og:site_name" content="quarto-site-template 🏗️">
+<meta name="twitter:title" content="quarto-site-template 🏗️">
+<meta name="twitter:description" content="My ramblings about science and computers">
+<meta name="twitter:image" content="https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true">
+<meta name="twitter:creator" content="@saforem2">
+<meta name="twitter:site" content="@saforem2">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="citation_title" content="Quarto Site Template">
+<meta name="citation_title" content="quarto-site-template 🏗️">
 <meta name="citation_author" content="Sam Foreman">
-<meta name="citation_publication_date" content="2023-09-07">
-<meta name="citation_cover_date" content="2023-09-07">
-<meta name="citation_year" content="2023">
-<meta name="citation_online_date" content="2023-09-07">
+<meta name="citation_publication_date" content="2024-02-02">
+<meta name="citation_cover_date" content="2024-02-02">
+<meta name="citation_year" content="2024">
+<meta name="citation_online_date" content="2024-02-02">
 <meta name="citation_fulltext_html_url" content="https://saforem2.github.io/quarto-site-template">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=The climate risk &amp;amp;amp; resilience portal (ClimRR) metadata and data dictionary;,citation_author=C. Burdi;,citation_author=Wall. T Branham;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://dub.sh/ClimRR-Metadata;">
@@ -142,14 +129,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="https://raw.githubusercontent.com/saforem2/saforem2.github.io/master/docs/favicon.svg" alt="" class="navbar-logo">
+    <img src="././favicon.svg" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Site Template</span>
+    <span class="navbar-title">quarto-site-template 🏗️</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -159,23 +146,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./qmd/personal.html" rel="" target="">
- <span class="menu-text"><span class="purple-text"><i class="bi-person-vcard " style="" role="img" aria-hidden="true"></i></span> Personal</span></a>
+    <a class="nav-link" href="https://twitter.com/saforem2"> 
+<span class="menu-text"><span style="font-size: 1.15em;"><iconify-icon inline="" icon="line-md:twitter"></iconify-icon></span></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./qmd/posts.html" rel="" target="">
- <span class="menu-text"><span class="pink-text"><i class="bi-newspaper " style="" role="img" aria-hidden="true"></i></span> Posts</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/saforem2/saforem2.github.io/quarto-site-template" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
- <span class="menu-text"></span></a>
+    <a class="nav-link" href="https://github.com/saforem2/personal_site"> 
+<span class="menu-text"><span style="font-size: 1.15em;"><iconify-icon inline="" icon="line-md:github-loop"></iconify-icon></span></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-gear"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/saforem2/ezpz/blob/main/index.qmd">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/saforem2/ezpz/issues/new/choose">
+            New Issue
+            </a>
+          </li>
+      </ul>
+    </div>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -188,17 +185,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bi-easel2-examples" id="toc-bi-easel2-examples" class="nav-link active" data-scroll-target="#bi-easel2-examples"><span class="green-text"><i class="bi-easel2 " style="" role="img" aria-hidden="true"></i></span> Examples</a></li>
-  <li><a href="#bi-signpost-appendix" id="toc-bi-signpost-appendix" class="nav-link" data-scroll-target="#bi-signpost-appendix"><span class="blue-text"><i class="bi-signpost " style="" role="img" aria-hidden="true"></i></span> Appendix</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects"><span class="dim-text"><i class="fa-brands fa-github" aria-label="github"></i></span> Projects</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/saforem2/quarto-site-template/blob/main/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/saforem2/quarto-site-template/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/saforem2/quarto-site-template/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/saforem2/ezpz/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/saforem2/ezpz/edit/main/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/saforem2/ezpz/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="red-text"><i class="bi-house-door " style="" role="img" aria-hidden="true"></i></span> Homepage</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/saforem2/quarto-site-template/blob/main/index.qmd"><i class="bi"></i></button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">quarto-site-template 🏗️</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/saforem2/ezpz/blob/main/index.qmd"><i class="bi"></i></button></div></div>
 </div>
 
 
@@ -208,14 +205,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-             <p><a href="https://samforeman.me">Sam Foreman </a><a href="https://orcid.org/0000-0002-9981-0876"><span class="orcid-green"><i class="ai  ai-orcid"></i></span></a> </p>
+             <p><a href="https://samforeman.me">Sam Foreman </a><a href="https://orcid.org/0000-0002-9981-0876"><span class="orcid-green"><i class="ai  ai-orcid"></i></span></a> <a href="mailto:foremans@anl.gov" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading"></div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 7, 2023</p>
+      <p class="date">February 2, 2024</p>
     </div>
   </div>
   
@@ -223,46 +220,98 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
   
 
+
 </header>
 
-<section id="bi-easel2-examples" class="level2">
-<h2 class="anchored" data-anchor-id="bi-easel2-examples"><span class="green-text"><i class="bi-easel2 " style="" role="img" aria-hidden="true"></i></span> Examples</h2>
+
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
 <ul>
-<li>Personal Website / Blog: <a href="https://github.com/saforem2/saforem2.github.io"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://saforem2.github.io">saforem2.github.io</a></li>
+<li>Personal Website / Blog: <a href="https://samforeman.me"><i class="fa-solid fa-home" aria-label="home"></i></a> <a href="https://samforeman.me">samforeman.me</a></li>
 <li>Code / Project Website(s):
 <ul>
 <li><a href="https://github.com/saforem2/l2hmc-qcd"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://saforem2.github.io/l2hmc-qcd"><code>l2hmc-qcd</code></a></li>
 <li><a href="https://github.com/saforem2/climate-analysis"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://saforem2.github.io/climate-analysis">Climate Analysis with <code>ClimRR</code></a></li>
 </ul></li>
 </ul>
-<!-- ## []{.yellow-text} Appendix -->
 </section>
-<section id="bi-signpost-appendix" class="level2">
-<h2 class="anchored" data-anchor-id="bi-signpost-appendix"><span class="blue-text"><i class="bi-signpost " style="" role="img" aria-hidden="true"></i></span> Appendix</h2>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">from</span> datetime <span class="im">import</span> date</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(<span class="ss">f"Last updated: </span><span class="sc">{</span>date<span class="sc">.</span>today()<span class="sc">.</span>strftime(<span class="st">'</span><span class="sc">%d</span><span class="st"> %B %y'</span>)<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Last updated: 07 September 23</code></pre>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects"><span class="dim-text"><i class="fa-brands fa-github" aria-label="github"></i></span> Projects</h2>
+<p><strong>All</strong> of the <code>[🌐 web]</code> links below were made using <strong>this</strong> quarto site template.</p>
+<div class="flex-container">
+<div class="flex-container">
+<dl>
+<dt><a href="https://github.com/saforem2/ezpz"><i class="fa-brands fa-github" aria-label="github"></i> <code>ezpz</code></a> [<a href="https://saforem2.github.io/ezpz">🌐 web</a>]</dt>
+<dd>
+Distributed training, <code>ezpz</code>.
+</dd>
+<dt><a href="https://github.com/argonne-lcf/Megatron-DeepSpeed"><i class="fa-brands fa-github" aria-label="github"></i> <code>Megatron-DeepSpeed</code></a></dt>
+<dd>
+Megatron-LM + DeepSpeed, for the largest of large language models.
+</dd>
+<dt><a href="https://github.com/saforem2/wordplay"><i class="fa-brands fa-github" aria-label="github"></i> <code>wordplay</code></a> [🌐 <a href="https://saforem2.github.io/wordplay">web</a>]</dt>
+<dd>
+Built on <iconify-icon inline="" icon="icon-park:fork"></iconify-icon> [<code>nanoGPT</code>] with support for<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><br>
+<code>{</code> 🤗 <a href="https://huggingface.co/datasets"><code>datasets</code></a>, <a href="https://github.com/microsoft/DeepSpeed"><code>DeepSpeed</code></a> <code>}</code>
+</dd>
+<dt><a href="https://github.com/argonne-lcf/ai-science-training-series"><i class="fa-brands fa-github" aria-label="github"></i> <code>ai-science-training-series</code></a> [<a href="https://www.alcf.anl.gov/alcf-ai-science-training-series?">🌐 web</a>]</dt>
+<dd>
+Student training series on AI-driven Science on Supercomputers
+</dd>
+</dl>
+</div>
+<div class="flex-container">
+<dl>
+<dt><a href="https://github.com/saforem2/enrich"><i class="fa-brands fa-github" aria-label="github"></i> <code>enrich</code></a></dt>
+<dd>
+Python’s <code>logging</code>, with <a href="https://github.com/Textualize/rich">Rich</a>
+</dd>
+<dt><a href="https://github.com/saforem2/ambivalent"><i class="fa-brands fa-github" aria-label="github"></i> <code>ambivalent</code></a> [<a href="https://saforem2.github.io/ambivalent">🌐 web</a>]</dt>
+<dd>
+Minimal, beautiful (+ highly-customizable) styles for Matplotlib<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
+</dd>
+<dt><a href="https://github.com/saforem2/l2hmc-qcd"><i class="fa-brands fa-github" aria-label="github"></i> <code>l2hmc-qcd</code></a> [<a href="https://saforem2.github.io/l2hmc-qcd">🌐 web</a>]</dt>
+<dd>
+Application of the L2HMC algorithm to simulations in lattice QCD.
+</dd>
+<dt><a href="https://github.com/saforem2/climate-analysis"><i class="fa-brands fa-github" aria-label="github"></i> <code>climate-analysis</code></a> [<a href="https://saforem2.github.io/climate-analysis">🌐 web</a>]</dt>
+<dd>
+Climate Analysis project using ClimRR data
+</dd>
+</dl>
+</div>
+</div>
+<div id="e084bc3b" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f; font-style: italic">Last Updated</span>: <span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">02</span><span style="color: #f06292; text-decoration-color: #f06292">/</span><span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">02</span><span style="color: #f06292; text-decoration-color: #f06292">/</span><span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">2024</span> <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">@</span> <span style="color: #1a8fff; text-decoration-color: #1a8fff; font-weight: bold">23:04:00</span>
+</pre>
 </div>
 </div>
 <p align="center">
 <a href="https://hits.seeyoufarm.com"><img align="center" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.saforem2.github.io/quarto-site-template&amp;count_bg=%2300CCFF&amp;title_bg=%23303030&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=false"></a>
 </p>
+<!-- ![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsaforem2.github.io%2Fwordplay&count_bg=%23222222&title_bg=%23303030&icon=&icon_color=%23E7E7E7) -->
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{foreman2023,
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>⚡ powered by <a href="https://github.com/saforem2/ezpz"><code>ezpz</code></a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Forked from <iconify-icon inline="" icon="icon-park:fork"></iconify-icon> <del><a href="https://github.com/saforem2/opinonated"><i class="fa-brands fa-github" aria-label="github"></i> <code>saforem2/opinionated</code></a></del><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{foreman2024,
   author = {Foreman, Sam},
-  title = {Quarto {Site} {Template}},
-  date = {2023-09-07},
+  title = {Quarto-Site-Template 🏗️},
+  date = {2024-02-02},
   url = {https://saforem2.github.io/quarto-site-template},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-foreman2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Foreman, Sam. 2023. <span>“Quarto Site Template.”</span> September 7,
-2023. <a href="https://saforem2.github.io/quarto-site-template">https://saforem2.github.io/quarto-site-template</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-foreman2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Foreman, Sam. 2024. <span>“Quarto-Site-Template 🏗️.”</span> February 2,
+2024. <a href="https://saforem2.github.io/quarto-site-template">https://saforem2.github.io/quarto-site-template</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -305,6 +354,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -373,13 +449,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'alternate';
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -509,10 +587,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (showAllCode) {
     showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -522,8 +599,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -536,6 +622,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -579,6 +784,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -604,6 +810,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -667,56 +899,69 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>Copyright 2024, Sam Foreman</p>
+</div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://samforeman.me"><i class="fa-solid fa-home" aria-label="home"></i></a>
+    <a class="nav-link" href="https://samforeman.me">
+<p><span style="font-size: 1.25em;"><i class="fa-solid fa-home" aria-label="home"></i></span></p>
+</a>
   </li>  
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="https://github.com/saforem2">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+<p><span style="font-size: 1.25em;"><i class="fa-brands fa-github" aria-label="github"></i></span></p>
+</a>
   </li>  
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="https://twitter.com/saforem2">
-      <i class="bi bi-twitter" role="img">
-</i> 
-    </a>
+<p><span style="font-size: 1.25em;"><i class="fa-brands fa-twitter" aria-label="twitter"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="mailto:///foremans@anl.gov"><i class="fa-regular fa-paper-plane" aria-label="paper-plane"></i></a>
+    <a class="nav-link" href="mailto:///foremans@anl.gov">
+<p><span style="font-size: 1.25em;"><i class="fa-regular fa-paper-plane" aria-label="paper-plane"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.twitter.com/saforem2"><i class="fa-brands fa-twitter" aria-label="twitter"></i></a>
+    <a class="nav-link" href="https://scholar.google.com/citations?user=vV_1zDwAAAAJ&amp;hl=en">
+<p><span style="font-size: 1.25em;"><i class="ai  ai-google-scholar"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=vV_1zDwAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar"></i></a>
+    <a class="nav-link" href="https://orcid.org/0000-0002-9981-0876">
+<p><span style="font-size: 1.25em;"><i class="ai  ai-orcid"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0002-9981-0876"><i class="ai  ai-orcid"></i></a>
+    <a class="nav-link" href="https://www.last.fm/user/saforem2">
+<p><span style="font-size: 1.25em;"><i class="fa-brands fa-lastfm" aria-label="lastfm"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.last.fm/user/saforem2"><i class="fa-brands fa-lastfm" aria-label="lastfm"></i></a>
+    <a class="nav-link" href="https://open.spotify.com/user/saforem2">
+<p><span style="font-size: 1.25em;"><i class="fa-brands fa-spotify" aria-label="spotify"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://open.spotify.com/user/saforem2"><i class="fa-brands fa-spotify" aria-label="spotify"></i></a>
+    <a class="nav-link" href="https://www.instagram.com/saforem2">
+<p><span style="font-size: 1.25em;"><i class="fa-brands fa-instagram" aria-label="instagram"></i></span></p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.instagram.com/saforem2"><i class="fa-brands fa-instagram" aria-label="instagram"></i></a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://linkedin.com/in/saforem2"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a>
+    <a class="nav-link" href="https://linkedin.com/in/saforem2">
+<p><span style="font-size: 1.25em;"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></span></p>
+</a>
   </li>  
 </ul>
-    </div>
-    <div class="nav-footer-right">Copyright 2023, Sam Foreman</div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/saforem2/ezpz/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/saforem2/ezpz/edit/main/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/saforem2/ezpz/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p><a href="https://samforeman.me">samforeman.me</a></p>
+</div>
   </div>
 </footer>
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+
 </body></html>

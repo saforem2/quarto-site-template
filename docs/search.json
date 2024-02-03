@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": " Homepage",
+    "title": "quarto-site-template 🏗️",
     "section": "",
-    "text": "Personal Website / Blog:  saforem2.github.io\nCode / Project Website(s):\n\n l2hmc-qcd\n Climate Analysis with ClimRR"
+    "text": "Personal Website / Blog:  samforeman.me\nCode / Project Website(s):\n\n l2hmc-qcd\n Climate Analysis with ClimRR"
   },
   {
     "objectID": "index.html#fa-solid-newspaper-recent-work",
@@ -93,9 +93,9 @@
   {
     "objectID": "index.html#examples",
     "href": "index.html#examples",
-    "title": " Awesome Landing Page",
+    "title": "quarto-site-template 🏗️",
     "section": "",
-    "text": "Personal Website / Blog:  saforem2.github.io\nCode / Project Website(s):\n\n l2hmc-qcd\n Climate Analysis with ClimRR"
+    "text": "Personal Website / Blog:  samforeman.me\nCode / Project Website(s):\n\n l2hmc-qcd\n Climate Analysis with ClimRR"
   },
   {
     "objectID": "index.html#fa-solid-wand-sparkles-examples",
@@ -159,5 +159,26 @@
     "title": "Sam Foreman ",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nUniversity of Illinois At Urbana-Champaign↩︎\nLeadership Computing Facility (@ ANL)↩︎\nArgonne National Laboratory↩︎"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "quarto-site-template 🏗️",
+    "section": " Projects",
+    "text": "Projects\nAll of the [🌐 web] links below were made using this quarto site template.\n\n\n\n ezpz [🌐 web]\n\nDistributed training, ezpz.\n\n Megatron-DeepSpeed\n\nMegatron-LM + DeepSpeed, for the largest of large language models.\n\n wordplay [🌐 web]\n\nBuilt on  [nanoGPT] with support for1\n{ 🤗 datasets, DeepSpeed }\n\n ai-science-training-series [🌐 web]\n\nStudent training series on AI-driven Science on Supercomputers\n\n\n\n\n\n enrich\n\nPython’s logging, with Rich\n\n ambivalent [🌐 web]\n\nMinimal, beautiful (+ highly-customizable) styles for Matplotlib2.\n\n l2hmc-qcd [🌐 web]\n\nApplication of the L2HMC algorithm to simulations in lattice QCD.\n\n climate-analysis [🌐 web]\n\nClimate Analysis project using ClimRR data\n\n\n\n\n\n\nLast Updated: 02/02/2024 @ 23:04:00"
+  },
+  {
+    "objectID": "index.html#appendix",
+    "href": "index.html#appendix",
+    "title": "quarto-site-template 🏗️",
+    "section": " Appendix",
+    "text": "Appendix\n\n\nLast Updated: 02/02/2024 @ 22:48:41"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "quarto-site-template 🏗️",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n⚡ powered by ezpz↩︎\nForked from   saforem2/opinionated↩︎"
   }
 ]
